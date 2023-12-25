@@ -1,0 +1,19 @@
+src::
+	flex 2.5.4a download   from sourceforge.net
+	bison 2.4.1download	https://gnuwin32.sourceforge.net/packages/bison.htm --setupfile from sourceforge.net
+	gcc from winlibs.com--->downloads-->64bit archive -->extractALL---> and bin path to environment varibles
+
+
+write code and save with .L extion
+open cmd there and say
+1)	flex file_name.l then enter
+	result:lex.yy will be gen.
+2)	gcc lex.yy.c into C language
+3)	a.exe run exe file
+
+
+
+vi file.l
+lex file.l
+cc lex.yy.c
+./a.out
